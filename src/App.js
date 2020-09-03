@@ -4,6 +4,7 @@ import './App.css';
 
 import Nav from "./components/Nav"
 import UserProfile from './containers/UserProfile';
+import GenericProfile from './containers/GenericLookUp';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <UserProfile/>
+      <GenericProfile/>
     </div>
   );
 }
