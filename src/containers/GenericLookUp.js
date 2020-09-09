@@ -32,6 +32,7 @@ export default function GenericProfile(){
                 <label>#</label>
                 <input name="number" onChange={handleChange} value={player.number} placeholder="12345"/>
                 <br/>
+                {/* activision id endpoints not working */}
                 <input onChange={handleChange} type="radio" name="network" value="battle"/><label> BattleNet</label>
                 <input onChange={handleChange} type="radio" name="network" value="psn"/><label> PlayStaion Network</label>
                 <input onChange={handleChange} type="radio" name="network" value="xbl"/><label> XBox Live</label>
